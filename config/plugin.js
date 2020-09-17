@@ -8,8 +8,18 @@ module.exports = {
   // }
 
   // 跨域插件
-  cors:{
-    enable:true,
-    package:'egg-cors',
+  cors: {
+    enable: true,
+    package: 'egg-cors',
   },
+  // 
+  sequelize: {
+    enable: true,
+    package: 'egg-sequelize'
+  },
+  // 参数验证
+  valparams: {
+    enable: true,
+    package: 'egg-valparams'
+  }
 };
